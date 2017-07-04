@@ -1,0 +1,34 @@
+#+TITLE:     A Derivative Approach to Derivative Pricing
+#+AUTHOR:    David Millar-Durrant
+#+EMAIL:     dmillardurrant@gmail.com
+#+DATE:      2017-07-05 Wed
+#+DESCRIPTION: 
+#+KEYWORDS: 
+#+LANGUAGE:  en
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+LINK_UP:   
+#+LINK_HOME:
+#+startup: beamer
+#+LaTeX_CLASS: beamer
+#+LaTeX_CLASS_OPTIONS: [bigger]
+#+BEAMER_FRAME_LEVEL: 1
+#+COLUMNS: %40ITEM %10BEAMER_env(Env) %9BEAMER_envargs(Env Args) %4BEAMER_col(Col) %10BEAMER_extra(Extra)
+#+latex_header: \mode<beamer>{\usetheme{Madrid}}
+* Definition
+** A financial product which has a value derived from an underlying variable asset
+* Examples
+** Future
+*** Next week I will give you $110 and you will give me £100
+** Option
+*** Next week I would like to be able to buy £100 for $110 if I want
+** Swap:
+*** I will give you £10 for $11 every day this week
+
+#+BEGIN_SRC haskell
+a = 10
+b = Just "hello" "world"
+#+END_SRC
